@@ -1,0 +1,260 @@
+/* Navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+nav img{
+    width: 300px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+nav li{
+    font-size: 17px;
+    color:rgb(166, 164, 164)
+}
+nav li:hover{
+    color:#00b39b;
+}
+/* End navbar */
+
+/* Making */
+.making{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 100px auto;
+}
+.making img{
+    width: 40PX;
+}
+.making h1{
+    color: #00b39b;
+    font-weight: 10;
+}
+.parag{
+    display: flex;
+    color: rgb(111, 109, 109);
+    font-size: 18px;
+    align-items: center;
+    gap: 20px;
+}
+/* End makin */
+
+/* card */
+.cards{
+    width: 70%;
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+.card{
+    width: 27%;
+    height: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+}
+.card select{
+    background: none;
+    border: none;
+    text-decoration: underline;
+    color: white;
+    font-size: 23px;
+}
+.card select option{
+    color: black;
+}
+.card img{
+    width: 50px;
+}
+.card1{
+    background-color: #00ccb1;
+}
+.card2{
+    background-color: #3d83df;
+}
+.card3{
+    background-color: #1b2734;
+}
+/* end card */
+
+/* global */
+.global{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.global h1{
+    width: 20px;
+    color: #00b39b;
+    font-weight: 100;
+}
+.global div{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.global div img{
+    width: 22%;
+    height: 30px;
+}
+.global img:last-child{
+    margin-right: 340px;
+}
+/* end global */
+
+/* last */
+.last{
+    background-color:#d0faf4;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+.last_cont{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 30%;
+
+}
+.right{
+    width: 60%;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.left h1{
+    color: #00b39b;
+    font-weight: 100;
+}
+.left p{
+    color: #747474;
+}
+.right p{
+    color: #747474;
+}
+.right h1{
+    color: #00b39b;
+    font-weight: 90;
+}
+.cart{
+   width: 40%;
+   height: 250px;
+   background-color: white;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.cart h1{
+    font-weight: 100;
+    
+}
+#big_img{
+    width: 400px;
+    position: absolute;
+    top: 290px;
+    left: 150px;
+    filter: invert(48%) sepia(58%) saturate(2932%) hue-rotate(140deg) brightness(97%) contrast(101%);
+}
+/* end last */
+
+/* improve */
+.improve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 100px auto;
+}
+.improve h1{
+    display: flex;
+    justify-content: center;
+    color: #00b39b;
+    font-weight: 90;
+}
+.improve p{
+    font-size: 15px;
+}
+/* end improve */
+
+/* city */
+.city{
+    width: 70%;
+    margin:0 auto ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    justify-content:space-between;
+    row-gap: 20px;
+}
+.image{
+    width: 30%;
+}
+
+.image div{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.image div h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgb(151, 147, 147);
+}
+.image div button{
+    background-color: #3d83df;
+    font-size: 20px;
+    color: white;
+}
+/* endcity */
+
+/* contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 100px auto;
+}
+.contact h1{
+    font-weight: 100;
+}
+.contact button{
+    background-color: #3d83df;
+    color: white;
+}
+/* end contact */
+/* footer */
+.end{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* end footer */
